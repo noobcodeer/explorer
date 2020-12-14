@@ -100,7 +100,7 @@ const MessagesChatHeading = ({ location, match, chatUser }) => {
             backgroundColor="white"
             hideIcon
             forMessage
-            placeholder="Type the name of a person"
+            placeholder="Nhập tên người bạn cần tìm"
             autoFocus
           />
         </InputContainer>

@@ -48,7 +48,7 @@ const Notifications = () => {
 
     const { notifications, count } = data.getUserNotifications;
     if (!notifications.length) {
-      return <Empty text="No notifications yet." />;
+      return <Empty text="Không có thông báo nào" />;
     }
 
     return (
